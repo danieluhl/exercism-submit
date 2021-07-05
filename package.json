@@ -1,0 +1,17 @@
+{
+  "name": "@danieluhl/exercism-submit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danieluhl/exercism-submit.git"
+  },
+  "author": "Dan Uhl <duhl@wayfair.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/danieluhl/exercism-submit/issues"
+  },
+  "homepage": "https://github.com/danieluhl/exercism-submit#readme"
+}
