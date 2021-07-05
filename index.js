@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
 
-const result = fs.readdirSync('./');
+const result = fs.readdirSync(__dirname);
 let [cmd, thisFile, ext] = process.argv;
 ext ??= 'js';
 

@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/danieluhl/exercism-submit.git"
   },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "private": false,
   "author": "Dan Uhl <duhl@wayfair.com>",
   "license": "MIT",
   "devDependencies": {},
@@ -13,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/danieluhl/exercism-submit/issues"
   },
-  "homepage": "https://github.com/danieluhl/exercism-submit#readme"
+  "homepage": "https://github.com/danieluhl/exercism-submit#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
