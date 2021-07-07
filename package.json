@@ -9,6 +9,9 @@
   "engines": {
     "node": ">=15.0.0"
   },
+  "bin": {
+    "exercism-submit": "index.js"
+  },
   "private": false,
   "author": "Dan Uhl <duhl@wayfair.com>",
   "license": "MIT",
