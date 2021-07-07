@@ -6,12 +6,15 @@ const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
 
-const result = fs.readdirSync(__dirname);
+const result = fs.readdirSync(process.cwd());
 let [cmd, thisFile, ext] = process.argv;
 ext ??= 'js';
 
 const file = result.filter(
-  (file) => !file.includes('spec') && path.extname(file) === `.${ext}`
+  (file) =>
+    !file.includes('spec') &&
+    !file.includes('config') &&
+    path.extname(file) === `.${ext}`
 );
 
 exec(`exercism submit ${file}`, (err, stdout, stderr) => {
