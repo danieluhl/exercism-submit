@@ -22,8 +22,7 @@ exec(`exercism submit ${file}`, (err, stdout, stderr) => {
     //some err occurred
     console.error(err);
   } else {
-    // the *entire* stdout and stderr (buffered)
     console.log(`stdout: ${stdout}`);
-    console.log(`stderr: ${stderr}`);
+    // console.log(`stderr: ${stderr}`);
   }
 });
